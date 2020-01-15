@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+/**** intro section **/
+.grid-one{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 100px 100px  auto 100px 100px;
+    grid-gap: 5px;
+    
+}
+
+#intro{
+    grid-column: 6/8;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 6px;
+    padding-top: 40px;
+}
+
+#intro-2{
+    grid-column: 6/8;
+    text-align: center;
+    grid-row: 3;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 4px;
+}
+
+#btn-1{
+grid-row: 4/4;
+grid-column: 5/6;
+border: none;
+background: #404040;
+color: #ffffff !important;
+font-weight: 100;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+}
+
+#btn-1:hover{
+
+    color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+#btn-2{
+    grid-row: 4/4;
+grid-column: 6/7;
+border: none;
+background: #404040;
+color: #ffffff !important;
+font-weight: 100;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+}
+
+#btn-2:hover{
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+#btn-3{
+    grid-row: 4/4;    
+grid-column: 7/8;
+border: none;
+background: #404040;
+color: #ffffff !important;
+font-weight: 100;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+}
+
+#btn-3:hover{
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+#btn-4{
+    grid-row: 4/4;
+    grid-column: 8/9;
+    border: none;
+background: #404040;
+color: #ffffff !important;
+font-weight: 100;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+}
+
+#btn-4:hover{
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+
+/******** About Me Section ******/
+
+.grid-two{
+   display: grid;
+   grid-template-columns: repeat(12,1fr);
+   grid-template-rows: 100px  100px 100px auto 100px 100px 100px;
+   grid-gap: 5px;
+   background-color:#404040;
+   border-radius: 25%;
+
+}
+
+#parts-one{
+    grid-row: 7/8;
+    grid-column: 5/6;
+   padding-right: 90px;
+   text-align: center;
+   color:silver;
+   font-family: 'Playfair Display SC', serif;
+  
+}
+#parts-two{
+    grid-row: 7/8;
+    grid-column: 6/7;
+    padding-right: 60px;
+    padding-left: 40px;
+    text-align: center;
+    color:silver;
+    font-family: 'Playfair Display SC', serif;
+   
+}
+#parts-three{
+    grid-row: 7/8;
+    grid-column: 7/8;
+    text-align: center;
+    padding-left: 50px;
+    color:silver;
+    font-family: 'Playfair Display SC', serif;
+}
+
+#part-1{
+grid-row: 8/9;
+grid-column: 4/6;
+text-align: center;
+font-size: 23px;
+color:silver;
+padding-top: 25px;
+font-family: 'Playfair Display SC', serif;
+}
+
+#part-2{
+grid-row: 8/9;
+grid-column: 6/7;
+text-align: center;
+font-size: 23px;
+color:silver;
+padding-bottom: 25px;
+font-family: 'Playfair Display SC', serif;
+}
+
+#part-3{
+grid-row: 8/9;
+grid-column: 7/9;
+text-align: center;
+font-size: 23px;
+color:silver;
+padding-top: 25px;
+font-family: 'Playfair Display SC', serif;
+}
+
+#about{
+     grid-column: 7/-8; 
+    grid-row: 1/2;
+    word-spacing: 4px;
+    letter-spacing: 5px;
+    color:silver;
+    padding-left: 40px;
+}
+
+#paragraph-one{
+    text-align: center;
+    grid-column: 4/10;
+    grid-row: 3/5;
+    font-size: 25px;   
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+    color:silver;
+    cursor: pointer;;
+    word-spacing: 3px;
+   letter-spacing: 3.5px;
+}
+
+/********* Tools Section ******/
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat( 12,1fr);
+    grid-template-rows: 100px 100px  100px 100px auto 100px;
+    grid-gap: 5px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+#tools{
+   grid-column: 6/9;
+   grid-row: 2/4;
+    letter-spacing: 5px;
+}
+#list-1{
+grid-row: 3/3;
+    font-size: 30px;
+    list-style-type: none;
+    text-align: center;
+    letter-spacing: 4px;
+    grid-column: 8/9;
+}
+
+#list-2{
+  grid-row:3/3;
+    font-size: 30px;
+    list-style-type: none;
+    text-align: center;
+    letter-spacing: 4px;
+    grid-column: 5/6;
+   
+}
+
+/************** project 1 ********/
+
+.boxes-grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 400px auto 100px 100px;
+    grid-gap: 5px;
+    background-color:#404040; 
+    
+}
+
+
+#title-one{
+    padding-top: 30px;
+    grid-column: 4/5;
+    grid-row:3;
+    color:grey;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+
+#info-1{
+    grid-column:4/5;
+    grid-row:4/4;
+    color:grey;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.box-1{
+  grid-column: 4;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+/********* Project two grid *********/
+
+.boxes-grid-two{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 400px auto 100px 100px;
+    grid-gap: 5px;
+    background-color:#404040; 
+}
+
+#title-two{
+    padding-top: 30px;
+    grid-column: 9/11;
+    grid-row:3;
+    color:grey;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+
+#info-two{
+
+    grid-column:9/10;
+    grid-row:4/4;
+    color:grey;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.box-2{
+    grid-column: 9/9;
+  cursor: pointer;
+}

@@ -12,7 +12,7 @@ class AboutMe extends Component {
       <div className="grid-two">
         
         <h1 id='about'>
-            ABOUT ME
+            &nbsp;ABOUT ME
             </h1>
           <p id='paragraph-one'>
           I first discovered code while doing my Physics Major, during that time

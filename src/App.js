@@ -6,6 +6,7 @@ import AboutMe from "./components/AboutMe";
 import Tools from "./components/Tools";
 import ProjectOne from "./components/ProjectOne";
 import ProjectTwo from "./components/ProjectTwo";
+import ProjectThree from "./components/ProjectThree";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 <Tools />
 <ProjectOne />
 <ProjectTwo />
+<ProjectThree />
     </div>
   );
 }

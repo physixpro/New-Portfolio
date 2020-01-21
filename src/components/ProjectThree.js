@@ -1,51 +1,45 @@
 import React, {Component} from 'react';
+import xboxOne from "./xboxOne.jpg";
+import xboxTwo from "./xboxTwo.jpg";
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
-import bOne from "./bOne.jpg";
-import bTwo from './bTwo.jpg';
 
-class ProjectTwo extends Component {
-
+class ProjectThree extends Component {
     constructor(){
         super();
+
         this.state={
-            box: <img src={bOne} width="600"/>
+            box: <img src={xboxTwo} width="600" />
         }
         this.handleMouseOver=this.handleMouseOver.bind(this);
         this.handleMouseOut=this.handleMouseOut.bind(this);
     }
-    
     handleMouseOver(){
         this.setState({
-            box: <img src={bTwo} width="600"/>
+            box: <img src={xboxOne} width="600"/>
         });
         console.log("Mouse Over Fired");
     }
 
     handleMouseOut(){
         this.setState({
-            box: <img src={bOne}width="600"/>
+            box: <img src={xboxTwo}width="600"/>
         });
         console.log("Mouse Out Fired");
     }
 
     render(){
         return(
-<ScrollAnimation animateIn="fadeIn">
+            <ScrollAnimation animateIn="fadeIn">
 
 <div className = "boxes-grid-two">
-    <a id="fixing-box-two" href="https://sharp-wescoff-20e282.netlify.com/" target="_blank">
+    <a id="fixing-box-three" href="https://www.keaganstrose.com/indexskyrim.html" target="_blank">
 <div className="box-2" onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut}>{this.state.box}</div></a>
-<a href="https://github.com/physixpro/Fitness-FE"><h2 id='title-two'>VIEW SOURCE CODE ON GITHUB</h2></a>
-<h2 id='info-two'>  Website built to display UI skills with backend connected to database</h2>
+<h2 id='info-two'> My First Website built to display UI skills </h2>
 
            </div> </ScrollAnimation>
-            
-
-            
         )
     }
-
 }
 
-export default ProjectTwo;
+export default ProjectThree;

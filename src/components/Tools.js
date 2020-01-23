@@ -19,7 +19,8 @@ class Tools extends Component{
                     <li>CSS</li>
                     <li>SASS</li>
                     <li>PHOTOSHOP</li>
-                    <li>GIT: VERSION CONTROL</li>
+                    <li>GIT</li>
+                    <li>NETIFY</li>
                 </ul>
                 {/* <p id='para-two'>
 

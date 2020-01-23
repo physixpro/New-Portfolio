@@ -36,7 +36,7 @@ class ProjectTwo extends Component {
 <div className = "boxes-grid-two">
     <a id="fixing-box-two" href="https://sharp-wescoff-20e282.netlify.com/" target="_blank">
 <div className="box-2" onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut}>{this.state.box}</div></a>
-<a href="https://github.com/physixpro/Fitness-FE"><h2 id='title-two'>VIEW SOURCE CODE ON GITHUB</h2></a>
+<a id="source-code-one" href="https://github.com/physixpro/Fitness-FE"><h2 id='title-two'>VIEW SOURCE CODE ON GITHUB</h2></a>
 <h2 id='info-two'>  Website built to display UI skills with backend connected to database</h2>
 
            </div> </ScrollAnimation>
